@@ -1,0 +1,9 @@
+﻿
+Private Sub CommandButton1_Click()
+runningFile = Cells(1, 3)
+Call Shell(runningFile)
+ThisWorkbook.Saved = True
+Application.Quit
+
+
+End Sub
